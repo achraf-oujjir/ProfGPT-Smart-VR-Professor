@@ -22,7 +22,7 @@ The architecture leverages several APIs:
 
 ![Architecture Diagram](profgpt-architecture.png)
 
-  ## Implementation
+  ## 🛠️ Implementation
 ProfGPT uses a modular architecture where each component is responsible for specific interactions:
 
 1. **Speech Recognition**: The user records their voice, which is sent to Whisper by OpenAI for transcription.
