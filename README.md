@@ -57,7 +57,11 @@ These components can be picked up and placed on the lab table to form functionin
 ![Lab Table](path_to_lab_table_image.png)
 
 ## 🤖 ProfGPT: Avatar & Configuration
-ProfGPT is designed using the ReadyPlayerMe platform, and the avatar is integrated with Unity via the ReadyPlayerMe SDK. The avatar can:
+ProfGPT is designed using the ReadyPlayerMe platform, and the avatar is integrated with Unity via the ReadyPlayerMe SDK. The avatar used has the following glb url
+
+```https://models.readyplayer.me/644c3d00b7a1ed40a46033c9.glb```
+
+The avatar can:
 - Hear user queries using Whisper.
 - Respond to users using ChatGPT and AWS Polly.
 
