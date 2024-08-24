@@ -1,5 +1,12 @@
 # 👨‍🏫🤖 ProfGPT: Virtual Reality Education with AI-powered Virtual Teacher 🧠
 
+<br>
+<div align="center">
+   <img align="center" alt="profgpt" width="400" src="Media/profgpt.png">
+   <br>
+</div>
+<br>
+
 ## 🎯 Project Overview
 ProfGPT is a virtual reality (VR) educational application developed for Oculus Quest 2. It offers an immersive learning experience for users to explore and experiment with electrical circuits in a virtual lab environment. The highlight of the application is ProfGPT, an AI-powered virtual teacher who guides users through the learning process using natural language interaction (English or French).
 
@@ -41,13 +48,13 @@ ProfGPT uses a modular architecture where each component is responsible for spec
 - **ChatGPT**: AI-powered responses to user queries, allowing natural language interaction.
 
 ## 📦 Plugins & Packages
-- **ReadyPlayerMe**: Used to create the ProfGPT avatar.
-- **OpenAI-Unity**: For integrating OpenAI models (Whisper and ChatGPT) with Unity.
+- **[ReadyPlayerMe](https://readyplayer.me/)**: Used to create the ProfGPT avatar.
+- **[OpenAI-Unity](https://github.com/srcnalt/OpenAI-Unity)**: For integrating OpenAI models (Whisper and ChatGPT) with Unity.
 - **XR Interaction Toolkit**: Facilitates interactions within the VR environment.
-- **Mixamo**: Provides animations for ProfGPT’s avatar.
+- **[Mixamo](https://www.mixamo.com/)**: Provides animations for ProfGPT’s avatar.
 
 ## 🧪 Virtual Lab Table
-The virtual lab table contains various components for users to build electrical circuits. Users can interact with components like:
+The virtual lab table was imported from [this repo](https://github.com/Schackasawa/faraday) and it contains various components for users to build electrical circuits. Users can interact with components like:
 - 💡 Bulbs
 - 🔋 Batteries
 - 🌞 Solar Panels
