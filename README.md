@@ -27,7 +27,12 @@ The architecture leverages several APIs:
 - **ChatGPT** (AI conversational responses)
 - **AWS Polly** (text-to-speech)
 
-![Architecture Diagram](profgpt-architecture.png)
+<br>
+<div align="center">
+   <img align="center" alt="archi" width="800" src="Media/archi.svg">
+   <br>
+</div>
+<br>
 
   ## 🛠️ Implementation
 ProfGPT uses a modular architecture where each component is responsible for specific interactions:
