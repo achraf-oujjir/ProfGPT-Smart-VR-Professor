@@ -51,7 +51,7 @@ ProfGPT uses a modular architecture where each component is responsible for spec
 
 <br>
 <div align="center">
-   <img align="center" alt="project-structure" width="400" src="Media/project-structure.png">
+   <img align="center" alt="project-structure" width="500" src="Media/project-structure.png">
    <br>
 </div>
 <br>
@@ -103,7 +103,7 @@ The following scripts are essential:
 
 <br>
 <div align="center">
-   <img align="center" alt="profgpt-config" width="400" src="Media/profgpt-config.png">
+   <img align="center" alt="profgpt-config" width="500" src="Media/profgpt-config.png">
    <br>
 </div>
 <br>
@@ -128,7 +128,7 @@ The following scripts are essential:
 
 <br>
 <div align="center">
-   <img align="center" alt="lab-table-side" width="400" src="Media/lab-table-side.png">
+   <img align="center" alt="lab-table-side" width="700" src="Media/lab-table-side.png">
    <br><br>
    This is a side-view of the lab table.
 </div>
