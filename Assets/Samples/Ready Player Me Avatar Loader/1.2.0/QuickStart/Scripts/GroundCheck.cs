@@ -1,19 +1,3 @@
-using UnityEngine;
-
-public class GroundCheck : MonoBehaviour
-{
-    [SerializeField][Tooltip("Useful for rough ground")]
-    private float groundedOffset = -0.22f;
-    [SerializeField][Tooltip("The radius of the grounded check")] 
-    private float groundRadius = 0.28f;
-    [SerializeField][Tooltip("Defines which layers to check for collisions (Should be different from player layer)")] 
-    private LayerMask groundMask;
-    
-    public bool IsGrounded()
-    {
-        var position = transform.position;
-        Vector3 spherePosition = new Vector3(position.x, position.y + groundedOffset,
-            position.z);
-        return Physics.CheckSphere(spherePosition, groundRadius, groundMask);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e887407bb8d347d81a8611a7dc089b2f3435e8633fa70eacec59b610cde1e7a
+size 722

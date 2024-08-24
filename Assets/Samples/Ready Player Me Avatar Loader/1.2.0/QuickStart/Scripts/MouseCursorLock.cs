@@ -1,28 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MouseCursorLock : MonoBehaviour
-{
-    [SerializeField][Tooltip("Defines the Cursor Lock Mode to apply")] 
-    private CursorLockMode cursorLockMode;
-    [SerializeField][Tooltip("If true will hide mouse cursor")] 
-    private bool hideCursor = true;
-    [SerializeField][Tooltip("If true it apply cursor settings on start")]
-    private bool applyOnStart = true;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        if (applyOnStart)
-        {
-            Apply();
-        }
-    }
-
-    public void Apply()
-    {
-        Cursor.visible = hideCursor;
-        Cursor.lockState = cursorLockMode;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:552909c732964607a60bbdbaf40436ef4774e462408679dab32969465b79610a
+size 757
