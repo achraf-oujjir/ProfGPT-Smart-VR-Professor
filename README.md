@@ -2,7 +2,7 @@
 
 <br>
 <div align="center">
-   <img align="center" alt="profgpt" width="400" src="Media/profgpt.svg">
+   <img align="center" alt="profgpt" width="400" src="Media/profgpt.png">
    <br>
 </div>
 <br>
