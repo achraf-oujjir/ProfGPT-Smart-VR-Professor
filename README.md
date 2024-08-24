@@ -83,7 +83,7 @@ These components can be picked up and placed on the lab table to form functionin
 
 <br>
 <div align="center">
-   <img align="center" alt="table-front" width="700" src="Media/lab-table-front.png">
+   <img align="center" alt="table-demo" width="700" src="Media/lab-table-demo.png">
    <br>
 </div>
 <br>
@@ -110,7 +110,29 @@ The following scripts are essential:
 
 ## 📸 Media
 
+<br>
+<div align="center">
+   <img align="center" alt="another-demo" width="700" src="Media/demo-too.png">
+   <br><br>
+   We can see the structure of the scene next to the ProfGPT avatar
+</div>
+<br>
 
+<br>
+<div align="center">
+   <img align="center" alt="demo" width="700" src="Media/demo.png">
+   <br><br>
+   ProfGPT next to the lab table. Any question can be asked to ProfGPT and we can see it written in the UI.
+</div>
+<br>
+
+<br>
+<div align="center">
+   <img align="center" alt="lab-table-side" width="400" src="Media/lab-table-side.png">
+   <br><br>
+   This is a side-view of the lab table.
+</div>
+<br>
 
 ## 📚 References
 
