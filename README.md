@@ -10,6 +10,14 @@
 ## 🎯 Project Overview
 ProfGPT is a virtual reality (VR) educational application developed for Oculus Quest 2. It offers an immersive learning experience for users to explore and experiment with electrical circuits in a virtual lab environment. The highlight of the application is ProfGPT, an AI-powered virtual teacher who guides users through the learning process using natural language interaction (English or French).
 
+<br>
+<div align="center">
+   <img align="center" alt="demo" width="700" src="Media/demo.png">
+   <br>
+</div>
+<br>
+
+
 ## 🚀 Features
 
 - 🔌 **Interactive Electrical Circuits Lab**: Experiment with a wide range of electrical components to build and explore circuits in a realistic 3D setting.
@@ -41,18 +49,25 @@ ProfGPT uses a modular architecture where each component is responsible for spec
 2. **AI Interaction**: The transcribed text is sent to ChatGPT to generate a response.
 3. **Speech Synthesis**: The AI's response is converted back into speech using AWS Polly and played for the user.
 
+<br>
+<div align="center">
+   <img align="center" alt="project-structure" width="400" src="Media/project-structure.png">
+   <br>
+</div>
+<br>
+
 
 ### 🔑 Key Technologies:
-- Unity for the VR environment
-- OpenAI's Whisper and ChatGPT for voice interaction
-- AWS Polly for text-to-speech synthesis
+- **Unity** for the VR environment
+- **OpenAI's Whisper and ChatGPT** for smart voice interaction
+- **AWS Polly** for text-to-speech synthesis
 
-## 🔧 APIs & Services Used
+### 🔧 APIs & Services Used
 - **Whisper**: Converts audio input to text using state-of-the-art speech recognition.
 - **AWS Polly**: Provides natural-sounding text-to-speech conversion to generate responses from ProfGPT.
 - **ChatGPT**: AI-powered responses to user queries, allowing natural language interaction.
 
-## 📦 Plugins & Packages
+### 📦 Plugins & Packages
 - **[ReadyPlayerMe](https://readyplayer.me/)**: Used to create the ProfGPT avatar.
 - **[OpenAI-Unity](https://github.com/srcnalt/OpenAI-Unity)**: For integrating OpenAI models (Whisper and ChatGPT) with Unity.
 - **XR Interaction Toolkit**: Facilitates interactions within the VR environment.
@@ -66,10 +81,15 @@ The virtual lab table was imported from [this repo](https://github.com/Schackasa
 
 These components can be picked up and placed on the lab table to form functioning circuits.
 
-![Lab Table](path_to_lab_table_image.png)
+<br>
+<div align="center">
+   <img align="center" alt="table-front" width="700" src="Media/lab-table-front.png">
+   <br>
+</div>
+<br>
 
 ## 🤖 ProfGPT: Avatar & Configuration
-ProfGPT is designed using the ReadyPlayerMe platform, and the avatar is integrated with Unity via the ReadyPlayerMe SDK. The avatar used has the following glb url
+ProfGPT is designed using the ReadyPlayerMe platform, and the avatar is integrated with Unity via the ReadyPlayerMe SDK. The avatar used has the following glb url:
 
 ```https://models.readyplayer.me/644c3d00b7a1ed40a46033c9.glb```
 
@@ -81,7 +101,12 @@ The following scripts are essential:
 - `ProfFrGPT.cs`: Manages interactions between the user and ProfGPT, including sending audio to APIs and handling responses.
 - `ProfUI.cs`: Manages the GUI for recording voice input and displaying ProfGPT’s responses.
 
-![ProfGPT Avatar](path_to_avatar_image.png)
+<br>
+<div align="center">
+   <img align="center" alt="profgpt-config" width="400" src="Media/profgpt-config.png">
+   <br>
+</div>
+<br>
 
 ## 📸 Media
 
